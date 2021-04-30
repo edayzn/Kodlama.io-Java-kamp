@@ -19,14 +19,14 @@ public class Main {
 		student.setPassword("x");
 		student.setEducationLevel("Lisans");
 		
-		UserManager instructorManager=new InstructorManager();
+		InstructorManager instructorManager=new InstructorManager();
 		instructorManager.add(instructor);
 		instructorManager.delete(instructor);
 		
 	
-		UserManager userManager= new StudentManager();
+		StudentManager userManager= new StudentManager();
 		userManager.add(student);
-		userManager.delete(student);
+		userManager.update(student);
 	}
 
 }

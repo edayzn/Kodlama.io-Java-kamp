@@ -6,8 +6,6 @@ public class UserManager {
 		System.out.println(user.getFirstName() + " " + user.getLastName() + " kaydedildi.");
 	}
 
-	public void delete(User user) {
-		System.out.println(user.getFirstName() + " " + user.getLastName() + " silindi.");
-	}
+	
 
 }
